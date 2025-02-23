@@ -51,7 +51,7 @@ Required packages:
 - Matplotlib
 - imutils
 
-# 1. Coin Detection and Segmentation
+## 1. Coin Detection and Segmentation
 
 ### Features
 - Automatic coin detection using edge detection
