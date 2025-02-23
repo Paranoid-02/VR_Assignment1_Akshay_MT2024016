@@ -4,11 +4,45 @@ This repository contains two computer vision projects implemented in Python:
 1. Coin Detection and Segmentation
 2. Panorama Image Stitching
 
-## Dependencies
+## Getting Started
 
+### 1. Clone the Repository
 ```bash
-pip install opencv-python numpy matplotlib imutils
+git clone https://github.com/Paranoid-02/VR_Assignment1_Akshay_MT2024016.git
+cd VR_Assignment1_Akshay_MT2024016
 ```
+
+### 2. Set Up Virtual Environment (Recommended)
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows
+venv\Scripts\activate
+# On Unix or MacOS
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+# Install all required packages
+pip install -r requirements.txt
+```
+
+Required packages (automatically installed from requirements.txt):
+- Python 3.x
+- OpenCV (`cv2`) >= 4.5.0
+- NumPy >= 1.21.0
+- Matplotlib >= 3.4.0
+- imutils >= 0.5.4
+
+### 4. Prepare Your Data
+1. For Coin Detection:
+   - Place your coin images in `coins_images/`
+
+2. For Panorama Stitching:
+   - Place your sequential images in `panorama_images/`
 
 Required packages:
 - Python 3.x
@@ -17,7 +51,7 @@ Required packages:
 - Matplotlib
 - imutils
 
-## 1. Coin Detection and Segmentation
+# 1. Coin Detection and Segmentation
 
 ### Features
 - Automatic coin detection using edge detection
